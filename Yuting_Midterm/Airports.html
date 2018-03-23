@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1 id="slide1" class="title">US Major Airports Performance</h1>
+      <h1 id="slide2" class="title">US Major Airports Land Area</h1>
+      <h1 id="slide3" class="title">US Top 30 Passenger Airports</h1>
+      <h1 id="slide4" class="title">US Top 30 Cargo Airports</h1>
+      <h1 id="slide5" class="title">New York City Airports</h1>
+      <br>
+      <div>
+      <label id="text-label1" class="input-text">Commercial Service Airports are
+        publicly owned airports that have at least 2,500 passenger boardings each
+        calendar year and receive scheduled passenger service.</label>
+      <label id="text-label2" class="input-text">According to land area, Denver
+        is the largest airport in the U.S, with 33,531 square meters.
+        Dallas-Fort Worth International airport has land area of 17,207 square meters,
+        ranking the second.</label>
+      <label id="text-label3" class="input-text">The map shows top 30 airports based on the rank of passenger boardings in the year 2016.
+      The data is extracted from the Air Carrier Activity Information System (ACAIS).</label>
+      <label id="text-label4" class="input-text">The map shows top 30 airports based on the rank of cargo service in the year 2016.
+      The data is extracted from the Air Carrier Activity Information System (ACAIS).</label>
+      <label id="text-label5" class="input-text">Let's zoom in to the New York City,
+        take a closer look at the three primary international airports that support goods and people movements.</label>
+      </div>
+      <br>
+      <div class="box">
+        <label id="note-label1" class="input-note">This application shows each airport color coded based on category of commercial service, by large hub (L), medium hub (M), small hub (S) and nonhub (N). To get more information about airport
+      , hover over that airport on the map.</label>
+        <label id="note-label2" class="input-note">This application shows each airport color coded based on land area in square meters. To get more information about airport
+      , hover over that airport on the map.</label>
+        <label id="note-label3" class="input-note">This application shows each airport color coded based on the rank of enplanments in 2016, by 5 classes. To get more information about airport
+      , hover over that airport on the map.</label>
+        <label id="note-label4" class="input-note">This application shows each airport color coded based on the rank of landed weight in 2016, by 5 classes. To get more information about airport
+      , hover over that airport on the map.</label>
+        <label id="note-label5" class="input-note">The three airports are coded with different colors. To get more information about airport
+      , hover over that airport on the map.</label>
+      </div>
+      <div>
+        <a  class="previous">&laquo; Previous</a>
+        <a  class="next">Next &raquo;</a>
+      </div>
+    </div>
+    <!-- Map -->
+    <div id="map" class="map"></div>
+    <!-- Legend -->
+    <div class="legend"></div>
+    <!-- Javascript Imports -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

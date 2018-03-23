@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.box{
+  position: absolute;
+  top:260px;
+  right: 15px;
+  left:15px;
+  padding: 6px 8px 15px 15px;
+  background-color: #778868;
+  opacity: 0.6;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6em; /* 30px/16=1.875 */
+  font-weight: bold;
+  color: #d46780;
+}
+
+.input-text {
+  position: absolute;
+  top:120px;
+  font-size: 1.1em;
+  margin-right: 6px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  line-height: 1.5em;
+  color: #5F6629;
+}
+
+.input-note {
+  font-size: 1.0em;
+  line-height: 1.3em;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+.map {
+    position: absolute;
+    right: 0px;
+    left: 400px;
+    height: 100%;
+    top: 0;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.info {
+    padding: 6px 8px;
+    font: 14px/18px 'Lato', sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  margin: 0 0 5px;
+  color: #777;
+}
+
+.previous {
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    top: 550px;
+}
+
+.next {
+  position: absolute;
+  left: 300px;
+  background-color: #df91a3;
+  color: white;
+  top:550px;
+
+}
+
+.leaflet-marker-icon {
+    border:3px solid rgba(255,255,255,0.5);
+    border-radius:50%;
+}
+
+.legend {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  line-height: 28px;
+  color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.legend .circle {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-top: 8px;
+}
