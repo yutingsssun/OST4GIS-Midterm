@@ -28,15 +28,19 @@ body {
 }
 
 .title {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  left: 30px;
   font-family: 'Lato', sans-serif;
-  font-size: 1.6em; /* 30px/16=1.875 */
+  font-size: 1.5em; /* 30px/16=1.875 */
   font-weight: bold;
   color: #d46780;
 }
 
 .input-text {
   position: absolute;
-  top:120px;
+  top:100px;
   font-size: 1.1em;
   margin-right: 6px;
   margin-left: 8px;
